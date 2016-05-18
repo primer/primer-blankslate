@@ -1,0 +1,22 @@
+{
+  "name": "primer-blankslate",
+  "version": "0.1.0",
+  "description": "GitHub Primer - Blankslate",
+  "homepage": "https://github.com/styleguide",
+  "license": "MIT",
+  "repository": "https://github.com/primer/blankslate.git",
+  "main": "blankslate.scss",
+  "bugs": {
+    "url": "https://github.com/primer/blankslate/issues"
+  },
+  "author": "GitHub, Inc.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
