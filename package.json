@@ -1,22 +1,38 @@
 {
-  "name": "primer-blankslate",
   "version": "0.1.0",
-  "description": "GitHub Primer - Blankslate",
-  "homepage": "https://github.com/styleguide",
+  "name": "primer-blankslate",
+  "description": "Blankslates are for when there is a lack of content within a page or section.",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
   "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib"
+  ],
   "repository": "https://github.com/primer/blankslate.git",
-  "main": "blankslate.scss",
   "bugs": {
     "url": "https://github.com/primer/blankslate/issues"
   },
-  "author": "GitHub, Inc.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run setup && npm run preprocess",
+    "lint": "scss-lint **/*.scss",
+    "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
+    "setup": "npm install",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
   },
   "keywords": [
     "primer",
     "css",
     "github",
-    "primercss"
+    "primercss",
+    "blankslate",
+    "empty",
+    "content"
   ]
 }
