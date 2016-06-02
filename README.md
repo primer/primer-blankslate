@@ -7,10 +7,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about blankslate in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-blankslate` with this command.
@@ -37,18 +33,108 @@ For a compiled **css** version of this module, a npm script is included that wil
 $ npm run build
 ```
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
-* [primer-support][primer-support]
+You can read more about other primer modules in the [full primer docs][docs].
+
+<!-- %docs
+title: Blankslate
+-->
+
+### Blankslate
+
+Blankslates are for when there is a lack of content within a page or section. Use them as placeholders to tell users why something isn't there. Be sure to provide an action to add content as well.
+
+#### Basic example
+
+Wrap some content in the outer `.blankslate` wrapper to give it the blankslate appearance.
+
+```html
+<div class="blankslate">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+#### With Octicons
+
+When it helps the message, include (relevant) icons in your blank slate. Add `.blankslate-icon` to any `.mega-octicon`s as the first elements in the blankslate, like so.
+
+```html
+<div class="blankslate">
+  <%= octicon :symbol => "git-commit", :size => "large", :class => "blankslate-icon" %>
+  <%= octicon :symbol => "tag", :size => "large", :class => "blankslate-icon" %>
+  <%= octicon :symbol => "git-branch", :size => "large", :class => "blankslate-icon" %>
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+#### Variations
+
+Add an additional optional class to the `.blankslate` to change its appearance.
+
+##### Narrow
+
+Narrows the blankslate container to not occupy the entire available width.
+
+```html
+<div class="blankslate blankslate-narrow">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+##### Capped
+
+Removes the `border-radius` on the top corners.
+
+```html
+<div class="blankslate blankslate-capped">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+##### Spacious
+
+Significantly increases the vertical padding.
+
+```html
+<div class="blankslate blankslate-spacious">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+##### Large
+
+Increases the size of the text in the blankslate
+
+```html
+<div class="blankslate blankslate-large">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+
+##### No background
+
+Removes the `background-color` and `border`.
+
+```html
+<div class="blankslate blankslate-clean-background">
+  <h3>This is a blank slate</h3>
+  <p>Use it to provide information when no dynamic content exists.</p>
+</div>
+```
+<!-- %enddocs -->
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
-[primer-support]: https://github.com/primer/primer-support
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
