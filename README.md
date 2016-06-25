@@ -63,9 +63,9 @@ When it helps the message, include (relevant) icons in your blank slate. Add `.b
 
 ```html
 <div class="blankslate">
-  <%= octicon :symbol => "git-commit", :size => "large", :class => "blankslate-icon" %>
-  <%= octicon :symbol => "tag", :size => "large", :class => "blankslate-icon" %>
-  <%= octicon :symbol => "git-branch", :size => "large", :class => "blankslate-icon" %>
+  <%= octicon "git-commit", :height => 32, :class => "blankslate-icon" %>
+  <%= octicon "tag", :height => 32, :class => "blankslate-icon" %>
+  <%= octicon "git-branch", :height => 32, :class => "blankslate-icon" %>
   <h3>This is a blank slate</h3>
   <p>Use it to provide information when no dynamic content exists.</p>
 </div>
