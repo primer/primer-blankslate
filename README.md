@@ -5,7 +5,7 @@
 
 > Blankslates are for when there is a lack of content within a page or section. Use them as placeholders to tell users why something isn’t there. Be sure to provide an action to add content as well.
 
-This repository is a module of the full [primer-css][primer] repository.
+This repository is a module of the full [primer-css][primer-css] repository.
 
 ## Install
 
@@ -136,7 +136,7 @@ Removes the `background-color` and `border`.
 
 [MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
-[primer]: https://github.com/primer/primer
+[primer-css]: https://github.com/primer/primer
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
