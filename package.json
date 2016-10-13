@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/blankslate.git",
+  "repository": "https://github.com/primer/primer-blankslate.git",
   "bugs": {
-    "url": "https://github.com/primer/blankslate/issues"
+    "url": "https://github.com/primer/primer-blankslate/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
