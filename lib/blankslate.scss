@@ -2,7 +2,7 @@
 // stylelint-disable selector-no-type
 .blankslate {
   position: relative;
-  padding: 30px;
+  padding: $spacer-5;
   text-align: center;
   background-color: #fafafa;
   border: 1px solid #e5e5e5;
@@ -19,9 +19,9 @@
 }
 
 .blankslate-icon {
-  margin-right: 5px;
-  margin-bottom: 10px;
-  margin-left: 5px;
+  margin-right: $spacer-1;
+  margin-bottom: $spacer-2;
+  margin-left: $spacer-1;
   color: #aaa;
 }
 
@@ -30,10 +30,9 @@
 }
 
 .blankslate-spacious {
-  padding: 100px 60px 120px;
+  padding: ($spacer-6 * 2) $spacer-6;
 }
 
-// was .has-fixed-width
 .blankslate-narrow {
   width: 485px;
   margin: 0 auto;
@@ -42,18 +41,12 @@
 // was .large-format
 .blankslate-large {
   h3 {
-    margin: 0.75em 0;
-    font-size: 20px;
+    margin: $spacer-3 0;
+    font-size: $h3-size;
   }
 
   p {
-    font-size: 16px;
-
-    &.has-fixed-width {
-      width: 540px;
-      margin: 0 auto;
-      text-align: left;
-    }
+    font-size: $h4-size;
   }
 }
 
