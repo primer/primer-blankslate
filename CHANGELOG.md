@@ -1,3 +1,7 @@
+# HEAD
+
+ * Simplify the declaration - Jon Rohan [github/github@b505cf3](https://github.com/github/github/commit/b505cf3)
+
 # v0.3.0
 
  * Cutting new versions of primer modules - Jon Rohan [github/github@157f5ab](https://github.com/github/github/commit/157f5ab)
