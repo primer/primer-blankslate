@@ -1,5 +1,7 @@
-# HEAD
+# v0.3.1
 
+ * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
+ * update blankslate version number - broccolini [github/github@2005521](https://github.com/github/github/commit/2005521)
  * Simplify the declaration - Jon Rohan [github/github@b505cf3](https://github.com/github/github/commit/b505cf3)
 
 # v0.3.0
