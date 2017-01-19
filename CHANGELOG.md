@@ -1,3 +1,8 @@
+# v0.3.3
+
+ * bumping patch - Jon Rohan [github/github@23a6aa8](https://github.com/github/github/commit/23a6aa8)
+ * Missing primer-support import - Jon Rohan [github/github@d3bdb2a](https://github.com/github/github/commit/d3bdb2a)
+
 # v0.3.2
 
  * More versions - Jon Rohan [github/github@e12ba2e](https://github.com/github/github/commit/e12ba2e)
